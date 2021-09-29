@@ -1,0 +1,44 @@
+
+#instalar paquete de git
+ sudo apt-get install git
+
+#Repositorio para descargar fuentes de Kubernetes
+wget https://storage.googleapis.com/kubernetes-release/release/v1.10.1/bin/linux/amd64/kubeadm    
+wget https://storage.googleapis.com/kubernetes-release/release/v1.10.1/bin/linux/amd64/kubectl    
+wget https://storage.googleapis.com/kubernetes-release/release/v1.10.1/bin/linux/amd64/kubelet
+Sudo apt-get kubeadm
+Sudo apt-get kubectl
+Sudo apt-get kubelet
+
+
+Sudo kubectl get pods --all-namespaces #Ver todos los pods 
+sudo kubectl ngix-app -delete # eliminar nodos
+
+
+# descargar docker y ejecutarlo
+docker pull jenkins/jenkins
+sudo docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk1
+
+# Dockers
+sudo docker ps -a # ver listado de dockers
+
+# git adicionar directorio
+git config --global user.name"jprios"  #crear usuarios
+git git config --global user.email "jurios.ps@gmail.com" # adiciona dirección de correo OJO obligatorio para hace rlos commit
+git init  # arrancar git
+git add <folder/Archivo>
+git add -A #Adiciona todos lo que este en la ruta
+git add .  #Adiciona todos lo que este en la ruta
+git add '/home/jprios/Documentos/Proyectos JP/Prueba Git-github' # adicionar carpeta
+git status
+git commit -m "mensaje del commit" 
+git log --oneline # ver el listado de commits que se han realizado con su identificador unico
+git pull <branch name> <remote url>
+git push origin <branch name>    # Poner archivos en repo remoto
+git fetch # sincroniza los dos repositorios
+git rm <folder/Archivo>
+git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a repositorio remoto usar contraseña y token generado en github
+
+# Clave de conexión a github usuario:ultrademond  JvlB8TxLpUbyrLIvCPKsOEYfMjsAkJ2yhJy0
+
+
