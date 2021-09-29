@@ -38,5 +38,6 @@ git push origin <branch name>    # Poner archivos en repo remoto
 git rm <folder/Archivo>
 git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a repositorio remoto usar contraseña y token generado en github
 
+# Clave de conexión a github usuario:ultrademond  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
 
 
