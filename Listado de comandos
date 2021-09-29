@@ -14,28 +14,26 @@ Sudo kubectl get pods --all-namespaces #Ver todos los pods
 sudo kubectl ngix-app -delete # eliminar nodos
 
 
-
-# Dockers
-sudo docker ps -a # ver listado de dockers
-
-
-
-
 # descargar docker y ejecutarlo
 docker pull jenkins/jenkins
 sudo docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk1
 
+# Dockers
+sudo docker ps -a # ver listado de dockers
+
 # git adicionar directorio
 git config --global user.name"jprios"  #crear usuarios
 git git config --global user.email "jurios.ps@gmail.com" # adiciona dirección de correo OJO obligatorio para hace rlos commit
-
 git init  # arrancar git
 git add <folder/Archivo>
 git add -A #Adiciona todos lo que este en la ruta
-git add '/home/jprios/Documentos/Proyectos JP/Prueba Git-github'
+git add '/home/jprios/Documentos/Proyectos JP/Prueba Git-github' # adicionar carpeta
 git status
 git commit -m "mensaje del commit" 
 git pull <branch name> <remote url>
-git push origin <branch name>  
+git push origin <branch name>    # Poner archivos en repo remoto
 git rm <folder/Archivo>
+git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a repositorio remoto usar contraseña y token generado en github
+
+
 
