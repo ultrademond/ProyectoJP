@@ -32,10 +32,13 @@ git add .  #Adiciona todos lo que este en la ruta
 git add '/home/jprios/Documentos/Proyectos JP/Prueba Git-github' # adicionar carpeta
 git status
 git commit -m "mensaje del commit" 
+
 git log --oneline # ver el listado de commits que se han realizado con su identificador unico
+ git reflog # Historico de todos los cambios 
+
 git pull <branch name> <remote url>
 git push origin <branch name>    # Poner archivos en repo remoto
-git fetch # sincroniza los dos repositorios
+
 git rm <folder/Archivo>
 git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a repositorio remoto usar contraseña y token generado en github
 
