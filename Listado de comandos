@@ -27,6 +27,8 @@ sudo docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home je
 
 # git adicionar directorio
 git config --global user.name"jprios"  #crear usuarios
+git git config --global user.email "jurios.ps@gmail.com" # adiciona dirección de correo OJO obligatorio para hace rlos commit
+
 git init  # arrancar git
 git add <folder/Archivo>
 git add -A #Adiciona todos lo que este en la ruta
