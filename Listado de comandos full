@@ -32,7 +32,8 @@ git add .  #Adiciona todos lo que este en la ruta
 git add '/home/jprios/Documentos/Proyectos JP/Prueba Git-github' # adicionar carpeta
 git status
 git commit -m "mensaje del commit" 
-
+git commit -am "mensaje del commit"  #hace tanto el add como el commit
+ git mv "Listado de comandos 2" "Listado de comandos full" 
 git log --oneline # ver el listado de commits que se han realizado con su identificador unico
  git reflog # Historico de todos los cambios 
 
