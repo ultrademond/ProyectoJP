@@ -43,14 +43,14 @@ sudo git tag version1.0 -m "Version 1.0" # creación de tags
 git branch ramaTemporal2 # creación de rama temporal
 git branch # identificar en que rama estoy
 git checkout ramaTemporal2 # cambiar a la ramaTemporal2
-
+sudo git tag version1.0 -m "Version 1.0" # creación de tags
 
 git push --tags # para cargar los tags que se han marcado
 
 git rm <folder/Archivo> # eliminar archivos del repo
 git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a repositorio remoto usar contraseña y token generado en github
 
-# Clave de conexión a github usuario:ultrademond  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
+# Clave de conexión a github usuario:ultrademond  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
 
 <<<<<<< HEAD
 #modificacion del archivo desde el main
