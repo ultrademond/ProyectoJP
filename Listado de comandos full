@@ -40,6 +40,10 @@ git log --oneline # ver el listado de commits que se han realizado con su identi
 git pull <branch name> <remote url>
 git push origin <branch name>    # Poner archivos en repo remoto
 sudo git tag version1.0 -m "Version 1.0" # creación de tags
+git branch ramaTemporal2 # creación de rama temporal
+git branch # identificar en que rama estoy
+git checkout ramaTemporal2 # cambiar a la ramaTemporal2
+
 
 git push --tags # para cargar los tags que se han marcado
 
