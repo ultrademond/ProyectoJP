@@ -50,7 +50,7 @@ git push --tags # para cargar los tags que se han marcado
 git rm <folder/Archivo> # eliminar archivos del repo
 git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a repositorio remoto usar contraseña y token generado en github
 
-# Clave de conexión a github usuario:ultrademond  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
+# Clave de conexión a github usuario:ultrademond  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
 
 <<<<<<< HEAD
 #modificacion del archivo desde el main
