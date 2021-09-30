@@ -52,4 +52,8 @@ git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a
 
 # Clave de conexión a github usuario:ultrademond  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
 
+<<<<<<< HEAD
 #modificacion del archivo desde el main
+=======
+modificación creadad dentro de la rama conflicto
+>>>>>>> ramaConflicto
