@@ -33,16 +33,19 @@ git add '/home/jprios/Documentos/Proyectos JP/Prueba Git-github' # adicionar car
 git status
 git commit -m "mensaje del commit" 
 git commit -am "mensaje del commit"  #hace tanto el add como el commit
- git mv "Listado de comandos 2" "Listado de comandos full" 
+git mv "Listado de comandos 2" "Listado de comandos full" # renombrar carpetas 
 git log --oneline # ver el listado de commits que se han realizado con su identificador unico
  git reflog # Historico de todos los cambios 
 
 git pull <branch name> <remote url>
 git push origin <branch name>    # Poner archivos en repo remoto
+sudo git tag version1.0 -m "Version 1.0" # creación de tags
 
-git rm <folder/Archivo>
+git push --tags # para cargar los tags que se han marcado
+
+git rm <folder/Archivo> # eliminar archivos del repo
 git remote add origin http://github.com/ultrademond/ProyectoJP.git # adicionar a repositorio remoto usar contraseña y token generado en github
 
-# Clave de conexión a github usuario:ultrademond  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
+# Clave de conexión a github usuario:ultrademond  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
 
 
